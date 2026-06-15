@@ -1,18 +1,19 @@
 # 📄 AI-Powered Document Intelligence System (RAG App)
 
-An intelligent document Q&A system built using **Streamlit, LangChain, FAISS, and Groq LLM (LLaMA 3)**.  
-This project allows users to upload PDF documents and ask natural language questions based on the content using Retrieval-Augmented Generation (RAG).
+A **local AI-powered document question-answering system** built using **Streamlit, LangChain, FAISS, and HuggingFace embeddings**.  
+This project allows users to upload PDF documents and ask questions based on their content using a Retrieval-Augmented Generation (RAG) pipeline.
 
 ---
 
 ## 🚀 Features
 
 - 📂 Upload PDF documents
-- 🧠 AI-powered question answering (RAG pipeline)
-- 🔍 Semantic search using FAISS vector database
-- 🤖 LLM responses using Groq (LLaMA 3)
-- ⚡ Fast embeddings using HuggingFace Transformers
-- 💬 Interactive Streamlit UI
+- 🧠 AI-powered question answering using RAG
+- 🔍 Semantic search with FAISS vector database
+- 🤖 HuggingFace embeddings for text understanding
+- ⚡ Fast document chunking and retrieval
+- 💬 Simple and interactive Streamlit UI
+- 🖥️ Fully local execution (no paid API required)
 
 ---
 
@@ -22,9 +23,9 @@ This project allows users to upload PDF documents and ask natural language quest
 - Streamlit 🎈
 - LangChain 🦜🔗
 - FAISS (Vector Database)
-- HuggingFace Embeddings
-- Groq API (LLaMA 3)
+- HuggingFace Sentence Transformers
 - PyPDF Loader
 
 ---
 
+## 📁 Project Structure
